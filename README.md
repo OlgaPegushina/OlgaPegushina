@@ -20,7 +20,7 @@
 
 * **Язык:** Java 21
 
-* **Фреймворк:** Spring Boot 3.3.x, Spring Cloud
+* **Фреймворк:** Spring Boot 3.3.x, Spring Cloud, Spring AOP, Spring Shell
 
 * **Инфраструктура:** Gateway, Netflix Eureka, Config Server, OpenFeign
 
@@ -32,13 +32,33 @@
 
 * **Сборка проекта:** Maven
 
-* **Тестирование:** JUnit 5, Mockito, MockMVC
+* **Тестирование:** JUnit 5, Mockito, MockMVC, Spring Boot Test
 
 * **Вспомогательные библиотеки:** Lombok, QueryDSL, MapStruct
 
 * **Технологии:** JPQL и SQL
 
 * **Принципы:** ООП, SOLID, DRY, KISS
+
+### Ключевые проекты
+
+* Event Symphony — это бэкенд-сервис для афиши событий, где пользователи могут находить интересные мероприятия, 
+создавать свои собственные и участвовать в них. Проект реализован на основе современной микросервисной архитектуры с использованием Spring Cloud. 
+Проект реализует рекомендательную систему на основе косинусного сходства. (https://github.com/OlgaPegushina/event-symphony)
+
+* Микросервисная Платформа "Smart Home" - этот проект представляет собой комплексную систему, построенную на принципах микросервисной архитектуры. Он включает в себя два основных бизнес-домена:
+(https://github.com/OlgaPegushina/plus-smart-home-tech)
+
+* Testing Students Application (Spring Shell Edition).
+  Консольное приложение на Spring Boot для проведения тестирования студентов с поддержкой интерактивного интерфейса (Spring Shell) и локализации, с реализацией аспектов (Spring AOP)
+  (https://github.com/OlgaPegushina/student-testing-system)
+
+* ShareIt Project Приложение для добавления пользователями своих вещей для сдачи в аренду и возможности брать в аренду вещи других пользователей.
+(https://github.com/OlgaPegushina/java-shareit)
+
+* Групповой проект - Сервис, который работает с фильмами и оценками пользователей. Имеет возможность заводить друзей. 
+Оставлять отзывы и рекомендовать фильмы друг другу. Имеет ленту событий. Реализует поиск по ключевому слову из названия или описания.
+(https://github.com/OlgaPegushina/java-filmorate)
 
 ### Текущие цели
 
